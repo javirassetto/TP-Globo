@@ -10,9 +10,9 @@ function subirComentario(evento) {
     let comentario = document.getElementById("txtComentarios").value;
     let usuario = document.getElementById("txtUsuario").value;
     LimpiarAlerta();
-    if(usuario!=="")
+    if(usuario!=="" && usuario!==" ")
     {
-        if(comentario!="")
+        if(comentario!=="" && comentario!==" ")
         {    
 
             let div = document.getElementById("divComentarios");    
